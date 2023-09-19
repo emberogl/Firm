@@ -16,6 +16,11 @@
             _cpr = cpr;
         }
 
+        public override string ToString()
+        {
+            return $"First name: {_firstName} | Last name: {_lastName} | CPR number: {_cpr}";
+        }
+
         public string GetFirstName()
         {
             return _firstName;
