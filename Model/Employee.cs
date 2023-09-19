@@ -21,20 +21,5 @@
         {
             return $"First name: {_firstName} | Last name: {_lastName} | CPR number: {_cpr}";
         }
-
-        public string GetFirstName()
-        {
-            return _firstName;
-        }
-
-        public string GetLastName()
-        {
-            return _lastName;
-        }
-
-        public uint GetCprNumber()
-        {
-            return _cpr;
-        }
     }
 }

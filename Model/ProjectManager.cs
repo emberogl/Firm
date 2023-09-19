@@ -20,10 +20,5 @@
         {
             return $"First name: {_firstName} | Last name: {_lastName} | CPR number: {_cpr} | Phone number: {_phoneNumber} | Email: {_email}";
         }
-
-        public string GetEmail()
-        {
-            return _email;
-        }
     }
 }

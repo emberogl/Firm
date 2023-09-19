@@ -19,10 +19,5 @@
         {
             return $"First name: {_firstName} | Last name: {_lastName} | CPR number: {_cpr} | Phone number: {_phoneNumber}";
         }
-
-        public uint GetPhoneNumber()
-        {
-            return _phoneNumber;
-        }
     }
 }
