@@ -2,6 +2,7 @@
 {
     /// <summary>
     /// All employees must have a first name, last name, and cpr number
+    /// Class Employee is not supposed to be instantiated
     /// </summary>
     abstract class Employee
     {
